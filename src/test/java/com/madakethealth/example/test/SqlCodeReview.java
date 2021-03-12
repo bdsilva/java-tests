@@ -1,6 +1,5 @@
 package com.madakethealth.example.test;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -28,11 +27,11 @@ public class SqlCodeReview {
      *     
      * @return
      */
-    public static void addToLinkedList(prev_id, next_id, val) {
-      long id = "select max(id)+1 from LinkedList";
-      "insert into LinkedList(id, prev_id, next_id, val) values(id, prev_id, next_id, val)";
-      "update LinkedList set prev_id=? where id=?";
-      "update LinkedList set next_id=? where id=?";
+    public static void addToLinkedList(String previousId, String nextId, String val) {
+//      long id = "select max(id)+1 from LinkedList";
+//      "insert into LinkedList(id, prev_id, next_id, val) values(id, prev_id, next_id, val)";
+//      "update LinkedList set prev_id=? where id=?";
+//      "update LinkedList set next_id=? where id=?";
     }
 
     @Test
